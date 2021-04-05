@@ -28,19 +28,3 @@ The program performs the following steps when execution initiates:
 The bot will trigger its search upon seeing a pull request conducted to the ./contributions/essay path. In order to obtain hemingway feedback, one needs to either include a comment on the pull request which includes "!hemingway" (with a exclamation mark), or include the phrase in the body of the pull request.
 
 The search can also be manually started by going into Github Actions and scheduling the "hemingway'' job. This might be necessary if one makes a comment after a pull request and wants to obtain feedback.
-
-## Submission details
-
-For this task, we aimed at fulfilling yes for all points except for the point about praise from other students, since this is subjective and unreliable at best. Note that we squashed the commit history into one commit to keep the history of the main repo clean. The overall work distribution was about equal. 
-
-
-|                                             | Reasoning | Remarkable |
-|-------------------------------------------- |----|-------------|
-|The work is done before April 6, 2021 (in order to be useful for the course) | PR done 5th of April | - |
-|The automation task produces a PR status or issue / PR comment | Produces a comment on a PR. | - |
-|The automation task is reusable | As a github action it may be applied to any other repository which hemingway feedback may be useful | “In other courses than this one”: If the course is based around github like this one, then yes. |
-|The task runs on a standard platform | Yes, runs on Github Actions| - |
-|The code for the task is available | Yes, repo: https://github.com/wska/hemingwayAutoFeedback | “Well documented repo”: While subjective, we would say that the repo is well documented |
-
-
-
