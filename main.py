@@ -80,6 +80,8 @@ if len(sys.argv) < 1:
 else:
     if len(sys.argv[1]) > 0:
         TOKEN = sys.argv[1]
+        REPO_ID = sys.argv[2]
+        REPO_NAME = sys.argv[3]
 
 #Create user that will navigate Github
 USER = Github(TOKEN)
@@ -114,8 +116,8 @@ for item in PDFobj:
 #Convert to txt
 for item in PDFobj:
     #Remove .pdf from filename
-    print("python3 contributions/course-automation/wska-thestar19/pdf2txt.py " + item.path + " > " + item.nameOfFile.replace(".pdf",".txt"))
-    print(runCommand("python3 contributions/course-automation/wska-thestar19/pdf2txt.py " + item.path + " > " + item.nameOfFile.replace(".pdf",".txt")))
+    print("pdf2txt.py " + item.path + " > " + item.nameOfFile.replace(".pdf",".txt"))
+    print(runCommand("pdf2txt.py " + item.path + " > " + item.nameOfFile.replace(".pdf",".txt")))
     #Save txt to obj
     f = open(item.nameOfFile.replace(".pdf",".txt"), "r+")
     allOfText = ""
