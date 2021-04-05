@@ -35,9 +35,12 @@ For this task, we aimed at fulfilling yes for all points except for the point ab
 
 
 |                                             | Reasoning | Remarkable |
-|-------------------------------------------- | ----|----|-------------|
+|-------------------------------------------- |----|-------------|
 |The work is done before April 6, 2021 (in order to be useful for the course) | PR done 5th of April | - |
 |The automation task produces a PR status or issue / PR comment | Produces a comment on a PR. | - |
 |The automation task is reusable | As a github action it may be applied to any other repository which hemingway feedback may be useful | “In other courses than this one”: If the course is based around github like this one, then yes. |
 |The task runs on a standard platform | Yes, runs on Github Actions| - |
 |The code for the task is available | Yes, repo: https://github.com/wska/hemingwayAutoFeedback | “Well documented repo”: While subjective, we would say that the repo is well documented |
+
+
+
