@@ -28,3 +28,6 @@ The program performs the following steps when execution initiates:
 The bot will trigger its search upon seeing a pull request by default. In order to obtain hemingway feedback, one needs to either include a comment on the pull request which includes "!hemingway" (with a exclamation mark), or include the phrase in the body of the pull request.
 
 The search can also be manually started by going into Github Actions and scheduling the "hemingway'' job. This might be necessary if one makes a comment after a pull request and wants to obtain feedback.
+
+# Configuration
+@TODO
