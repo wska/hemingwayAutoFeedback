@@ -29,5 +29,5 @@ The bot will trigger its search upon seeing a pull request by default. In order 
 
 The search can also be manually started by going into Github Actions and scheduling the "hemingway'' job. This might be necessary if one makes a comment after a pull request and wants to obtain feedback.
 
-# Configuration
+### Configuration
 @TODO
