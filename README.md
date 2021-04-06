@@ -30,4 +30,12 @@ The bot will trigger its search upon seeing a pull request by default. In order 
 The search can also be manually started by going into Github Actions and scheduling the "hemingway'' job. This might be necessary if one makes a comment after a pull request and wants to obtain feedback.
 
 ### Configuration
-@TODO
+To configure the bot, place the entire repo in one folder. Depending on your repo, the path to pdf2txt.py may be different, please adjust by noticing from the debug text where it attempts to run the pdf2txt.py file and adjust the path on line 120 accordingly.
+
+The heminwayfeedback.yml file needs to be in root/.github.
+
+To start the bot, run python3 main.py TOKENID REPO_ID REPO_NAME. This may need to be adjusted in the hemingwayfeedback.yml depending on your setup where line 50 needs to be run: python ./main.py $SUPER_SECRET REPO_ID REPO_NAME or set in main.py manually.
+
+This also makes it possible to target more than one repo at once.
+
+
