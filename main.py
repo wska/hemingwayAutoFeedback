@@ -71,7 +71,7 @@ def removeWrongPRs(aList):
     return returnList
 
 #Check if token is given as an argument
-if len(sys.argv) < 1:
+if len(sys.argv) <= 1:
     if len(TOKEN) < 10:
         print("No token in main AND no token in arguments, exiting")
         raise Exception("No token given, please pass as arg or set in main")
