@@ -8,8 +8,8 @@ import hemingway
 import sys
 
 #Constants
-REPO_ID = 131834720 #Used to find which repo to look at
-REPO_NAME = "devops-course"
+REPO_ID = 354943433 #Used to find which repo to look at
+REPO_NAME = "hemingwayAutoFeedback"
 TOKEN = "" #Used by Github library to find User, is sometimes set by argument
 
 #The function uses the global "user" and returns the correct repo obj
