@@ -78,8 +78,10 @@ if len(sys.argv) < 1:
     else:
         print("Using token from main, do not git push this")
 else:
-    if len(sys.argv[1]) > 0:
+    #Sys.argv >=2
+    if len(sys.argv) == 2:
         TOKEN = sys.argv[1]
+    else:
         REPO_ID = sys.argv[2]
         REPO_NAME = sys.argv[3]
 
