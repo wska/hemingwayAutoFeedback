@@ -45,6 +45,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the hemingway feedback script
         env:
-          SUPER_SECRET: ${{ secrets.SECRET_KEY }}
+          SUPER_SECRET: ${{ secrets.GITHUB_TOKEN }}
 
         run: python ./main.py $SUPER_SECRET
