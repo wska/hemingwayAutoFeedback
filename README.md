@@ -24,6 +24,8 @@ The program performs the following steps when execution initiates:
 4. It will then fetch the relevant feedback provided by the hemingway editor and create a short summary.
 5. This is then returned and posted as a comment to the original pull request using a dedicated bot-account. Git interactions are done using pygithub (https://pygithub.readthedocs.io/en/latest/index.html).
 
+An example of a PR submission which is scanned and provided with the hemingway scores can be viewed under active pull requests.
+
 ## How to use
 The bot will trigger its search upon seeing a pull request by default. In order to obtain hemingway feedback, one needs to either include a comment on the pull request which includes "!hemingway" (with a exclamation mark), or include the phrase in the body of the pull request.
 
