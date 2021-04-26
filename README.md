@@ -39,6 +39,11 @@ The heminwayfeedback.yml file needs to be in root/.github.
 To start the bot, run python3 main.py TOKENID REPO_ID REPO_NAME. 
 This may need to be adjusted in the hemingwayfeedback.yml depending on your setup where line 50 needs to be run: python ./main.py $SUPER_SECRET REPO_ID REPO_NAME or set in main.py manually.
 
+One way to obtain the REPO_ID is to inspect a repository through a modern web browser and paste the following command into the console:
+
+> $("meta[name=octolytics-dimension-repository_id]").getAttribute('content')
+
+
 This also makes it possible to target more than one repo at once. The $SUPER_SECRET can be a access token or the GITHUB_TOKEN which is generated for GitHub actions. See this for more information: https://docs.github.com/en/actions/reference/authentication-in-a-workflow
 
 
