@@ -47,6 +47,6 @@ One way to obtain the REPO_ID is to inspect a repository through a modern web br
 <img src="exampleIdOnChrome.PNG" width="400" />
 
 
-This also makes it possible to target more than one repo at once. The $SUPER_SECRET can be a access token or the GITHUB_TOKEN which is generated for GitHub actions. See this for more information: https://docs.github.com/en/actions/reference/authentication-in-a-workflow
+This also makes it possible to target more than one repo at once. The $SUPER_SECRET can be a access token or the GITHUB_TOKEN which is generated for GitHub actions. See [this page for more information.](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 
-
+[An example execution may be viewed at the following PR](https://github.com/wska/hemingwayAutoFeedback/pull/6)
